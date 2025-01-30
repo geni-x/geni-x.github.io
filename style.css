@@ -54,6 +54,7 @@
 
 p,span {
   color: white;
+  margin: auto;
   position: relative;
   background-color: transparent;
 }
