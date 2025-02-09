@@ -26,11 +26,11 @@
   gap: 11px;
 }
 
-.videoWrapper {
+/*.videoWrapper {
 	position:relative;
   	display: flex;
   	justify-content: center;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 56.25%; / 16:9 /
 	padding-top: 25px;
 	height: 0;
 }
@@ -39,6 +39,15 @@
 	position: absolute;
 	top: 0;
 	left: 0;
+}*/
+
+iframe {
+   display: block;
+   margin: 0 auto;
+   height: 630px;
+   width: 1120px;
+   margin-bottom: 11px;
+   margin-top: 11px;
 }
 
 .backButton {
@@ -111,6 +120,7 @@ h3{
 h1 {
   font-size: 222px;
   margin-bottom: 11px;
+  margin-top: 11px;
   color:#4c4c4c;
   -o-transition:.5s;
   -ms-transition:.5s;
