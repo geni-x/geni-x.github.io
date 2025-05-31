@@ -133,7 +133,7 @@ a:hover, a:active {
 
 /* FADE HOVER LINKS*/
 a {
-  color: #0c0c0c;
+  color: #fff;
   /* First we need to help some browsers along for this to work.
      Just because a vendor prefix is there, doesn't mean it will
      work in a browser made by that vendor either, it's just for
@@ -147,7 +147,7 @@ a {
 }
 
 a:hover { 
-  color: white;
+  color: #faace4;
   background-color:green; 
 }
 
