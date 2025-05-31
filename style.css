@@ -24,7 +24,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  row-gap: 11px 0px;
+  gap: 11px 0px;
 }
 
 .panel {
@@ -33,7 +33,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
- row-gap: 11px 0px;
+  gap: 11px 0px;
 }
 
 @keyframes fadeIn {
