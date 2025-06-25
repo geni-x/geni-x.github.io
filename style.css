@@ -107,6 +107,8 @@ span,p {
   margin: auto;
   position: relative;
   background-color: transparent;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
 
 ul,li {
