@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[geni-x]</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  
+  <body>
+    <!--landing	--> 
+    <div class="landing">
+      <img onclick="openNav()" src="signature-red.png">
+    </div>
+    
+    <!--linkset	--> 
+    <div id="myNav" class="overlay" onclick="closeNav()">
+      <!--<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>-->
+      <div class="overlay-content">
+        <a href="home.html">artwork</a>
+        <a href="hear.html">sound</a>
+        <a href="speak.html">contact</a>
+        <!--a href="shop.html">shop</a>-->
+      </div>
+    </div>
+    
+    <script>
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+    </script>
+
+    <!--<iframe 
+      class="bg-video"
+      src="https://www.youtube.com/embed/00yAKfSiVmk?si=NfQ4emimzGq9hO-m&amp;autoplay=1&amp;mute=1&amp;controls=0&amp;loop=1&amp;playlist=00yAKfSiVmk"
+      frameBorder="0"
+      allowFullScreen
+      allow="autoplay"
+    ></iframe>!-->
+
+	
+  </body>
+</html>
