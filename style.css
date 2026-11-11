@@ -125,7 +125,7 @@
   }
 
 span,p {
-  color: white;
+  color: #fff;
   margin: auto;
   position: relative;
   background-color: transparent;
@@ -134,7 +134,7 @@ span,p {
 }
 
 ul,li {
-  color: white;
+  color: #0c0c0c;
   margin: auto;
   position: relative;
   background-color: transparent;
