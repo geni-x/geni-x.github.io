@@ -57,6 +57,40 @@
   gap: 11px 0px;
 }
 
+.homePanel {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 11px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 11px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.homePanel img {
+  object-fit: cover;        /* crops to fill rather than stretching */
+  max-height: 89vh;         /* never taller than the window */
+  margin: 0px;
+  margin-bottom: 11px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 22px 0;
+}
+
+.logo {
+  position: fixed;
+  bottom: 11px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;   /* stops the strip from blocking clicks on content behind it */
+}
+
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
@@ -111,6 +145,7 @@
   font-size: 40px;
   top: 15px;
   right: 35px;
+  .homePanel { flex-direction: column; }
   }
 }
 
@@ -133,9 +168,34 @@ span,p {
   padding-bottom: 11px;
 }
 
+h2 {
+  color: #99132A;
+  margin: 22px 0 0 0;
+}
+
+.years {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.year {
+  text-align: center;
+}
+
+.year ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 22px 0;
+}
+
+.year li {
+  margin: 0;
+}
+
 ul,li {
   color: #0c0c0c;
   margin: auto;
+  list-style: none;
   position: relative;
   background-color: transparent;
   list-style-position: inside
@@ -226,3 +286,4 @@ h1 {
   transition:.5s;
 }
 h1:hover { color:#DBD5D6; }
+
